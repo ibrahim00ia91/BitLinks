@@ -1,0 +1,49 @@
+@media (max-width: 768px) {
+    body{
+        background-color: rgb(224, 221, 224);
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .image {
+        height: 194px;
+        width: 658px;
+    }
+    .head {
+        padding-top: 23px;
+    }
+  }
+
+
+@media (max-width: 450px){
+    .head{
+        padding-left: 30px;
+    }
+
+    .image{
+        width: 360px;
+        height: 300px;
+        margin-left: 50px;
+    }
+}
+  
+@media (max-width : 375px){
+    .image {
+        margin-left: 20px;
+    }
+}
+@media (max-width : 375px){
+    .ul{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+    }
+    .bitlink{
+        margin-right: 7px;
+        color: black;
+    }
+}
+
